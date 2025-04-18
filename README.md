@@ -1,5 +1,3 @@
-Region: us-west-1
-
 1. Activate virtualenv
     ```bash
     $ source .venv/bin/activate
@@ -24,4 +22,4 @@ Region: us-west-1
     cdklocal --profile localstack deploy --require-approval never
     ```
 
-1. Invoke Lambda and inspect the logs
+1. Invoke Lambda (region is us-west-1) and inspect the logs
